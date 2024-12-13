@@ -26,7 +26,7 @@ type NetString struct {
 	nsp    NetStringProcessor
 }
 
-func newNetString(nsp NetStringProcessor) *NetString {
+func NewNetString(nsp NetStringProcessor) *NetString {
 	ns := NetString{maxMsg, nsp}
 	return &ns
 }
